@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej Nº2</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Caja de producto */
+        .producto {
+            height: 200px;
+            width: 400px;
+            display: flex;
+            gap: 40px;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        /* caja del producto */
+
+        .izq {
+            width: 25%;
+            height: 100%;
+        }
+
+        .color-uno {
+            background-color: rgb(209, 8, 209);
+        }
+
+        .color-dos{
+            background-color:rgb(141, 0, 206) ;
+        }
+
+        .img-producto {
+            width: 100px;
+        }
+
+        .img-flotante {
+            position: absolute;
+            top: 25%;
+            left: 50px;
+        }
+
+        /* Boton */
+        button{
+            border: 2px solid rgb(141, 0, 206);
+            background-color: transparent;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 5px;
+            color: rgb(141, 0, 206);
+            font-family: 'Trebuchet MS';
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Primer producto -->
+
+        <div class="producto">
+
+            <div class="izq color-uno">
+
+            </div>
+
+            <div class="img-flotante">
+                <img src="fravega.png" alt="Logo Fravega" class="img-producto">
+            </div>
+
+            <div class="der">
+
+                <div class="titulo">
+                    <h2><span>DESCUBRILAS</span></h2>
+                </div>
+                <div>
+                    desc objeto
+                </div>
+                <div class="caja-boton">
+                    <button>VER MÁS</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Segundo producto-->
+
+
+        <div class="producto">
+
+            <div class="izq color-dos">
+
+            </div>
+
+            <div class="img-flotante">
+                <img src="sillon.png" alt="Logo Sillon" class="img-producto">
+            </div>
+
+            <div class="der">
+
+                <div class="titulo">
+                    <h2><span>DESCUBRILAS</span></h2>
+                </div>
+                <div>
+                    desc objeto
+                </div>
+                <div class="caja-boton">
+                    <button>VER MÁS</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
